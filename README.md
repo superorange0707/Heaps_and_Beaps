@@ -117,6 +117,3 @@ test.extensive_extractcompare()  # Compare extract performance
 - np3
 - scipy
 
-## License
-
-[MIT](LICENSE)
