@@ -88,6 +88,21 @@ bp.insert(11)                  # Insert a value
 bp.extract(0)                  # Extract a value
 ```
 
+### Quick Demo
+
+To quickly see how each data structure works, you can run the provided demo files:
+
+```bash
+# Run the Binary Heap demo
+python Binary_Heaps/run_binary_heap_demo.py
+
+# Run the Beap demo
+python Beaps/run_beap_demo.py
+
+# Run a performance comparison
+python Evaluation/run_comparison.py [size]  # Optional size parameter, defaults to 1000
+```
+
 ### Running Benchmarks
 ```python
 from Benchmark.Benchmark import Test
@@ -105,9 +120,14 @@ test.extensive_extractcompare()  # Compare extract performance
 ## Project Structure
 
 - **Binary_Heaps/**: Binary heap implementation
+  - `binary_heap.py`: Main Binary Heap implementation
+  - `run_binary_heap_demo.py`: Demonstration script
 - **Beaps/**: Beap implementation
+  - `Beaps.py`: Main Beap implementation
+  - `run_beap_demo.py`: Demonstration script
 - **Benchmark/**: Performance testing and comparison
 - **Evaluation/**: Evaluation results for both data structures
+  - `run_comparison.py`: Script to compare performance of both implementations
 - **Report/**: Documentation and analysis report
 
 ## Dependencies
