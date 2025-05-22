@@ -1,3 +1,5 @@
+import math
+
 class beap():
     # root=0
     # the number of node in each layer <= the height of the layer-1. so the height is sqrt(2*index+0.75)-0.5
