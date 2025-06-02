@@ -66,16 +66,6 @@ python Visualization/generate_beap_gifs.py
 python Evaluation/run_comparison.py
 ```
 
-## 🎓 Educational Animations
-
-Generate 5 educational GIFs demonstrating BEAP operations:
-- Structure formation, insertion, search, extraction, min/max operations
-
-```bash
-cd Visualization
-python3 generate_beap_gifs.py
-```
-
 ## Project Structure
 
 - **Binary_Heaps/**: Binary heap implementation
@@ -102,4 +92,30 @@ python3 generate_beap_gifs.py
 
 - matplotlib, numpy, np3, scipy
 - pillow (for visualizations)
+
+## 🎓 Educational Animations
+
+Generate 5 educational GIFs demonstrating BEAP operations:
+
+**Figure 1: BEAP Structure Formation**
+![BEAP Structure Formation](https://github.com/superorange0707/Heaps_and_Beaps/raw/main/Visualization/structure_demo.gif)
+
+**Figure 2: BEAP Insertion with Bubble-up**
+![BEAP Insertion Process](https://github.com/superorange0707/Heaps_and_Beaps/raw/main/Visualization/insert_demo.gif)
+
+**Figure 3: BEAP Search Algorithm**
+![BEAP Search Process](https://github.com/superorange0707/Heaps_and_Beaps/raw/main/Visualization/search_demo.gif)
+
+**Figure 4: BEAP Extraction with Heapify**
+![BEAP Extract Process](https://github.com/superorange0707/Heaps_and_Beaps/raw/main/Visualization/extract_demo.gif)
+
+**Figure 5: BEAP Min/Max Operations**
+![BEAP Min/Max Operations](https://github.com/superorange0707/Heaps_and_Beaps/raw/main/Visualization/minmax_demo.gif)
+
+### Generate Your Own Animations
+
+```bash
+cd Visualization
+python3 generate_beap_gifs.py
+```
 
